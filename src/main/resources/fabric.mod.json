@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mod1",
+  "version": "${version}",
+  "name": "mod1",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mod1/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.redreaperlp.mod1.client.Mod1Client"
+    ],
+    "main": [
+      "com.github.redreaperlp.mod1.Mod1"
+    ]
+  },
+  "mixins": [
+    "Mod1.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

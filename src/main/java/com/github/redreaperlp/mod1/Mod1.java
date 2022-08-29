@@ -1,0 +1,18 @@
+package com.github.redreaperlp.mod1;
+
+import com.github.redreaperlp.mod1.blocks.ModBlocks;
+import com.github.redreaperlp.mod1.items.ModItems;
+import net.fabricmc.api.ModInitializer;
+
+public class Mod1 implements ModInitializer {
+    ModBlocks modBlocks = new ModBlocks();
+    ModItems modItems = new ModItems();
+
+    @Override
+    public void onInitialize() {
+
+        modBlocks.registerBlocks();
+        modItems.registerItems();
+    }
+
+}
