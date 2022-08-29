@@ -1,0 +1,21 @@
+{
+  "mod1.tooltip.shift": "§eDrücke §7[§aSHIFT§7] §efür mehr Informationen",
+  "mod1.tooltip.craftingindigrend": "§aCrafting Bestandteil",
+
+  "item.mod1.eight_ball": "§b8-Ball",
+  "item.mod1.eight_ball.tooltip.info1": "§aEin magischer §b8-Ball§a, der dir eine zufällige zahl zwischen 1 und 10 gibt.",
+  "item.mod1.eight_ball.tooltip.info2": "§aRechtsklick um die Zahl zu erhalten.",
+
+  "block.mod1.ruby_block": "§cRubin Block",
+
+  "item.mod1.ruby": "§cRubin",
+
+  "block.mod1.ruby_ore": "§cRubin Erz",
+  "block.mod1.ruby_ore_deepslate": "§cRubin Erz §8(Deep Slate)",
+  "block.mod1.ruby_ore_nether": "§cRubin Erz §8(Nether)",
+  "block.mod1.ruby_ore_end": "§cRubin Erz §8(End)",
+  "block.mod1.jumpy_block": "§aSpringer Block",
+  "block.mod1.ruby_lamp": "§cRubin Lampe",
+
+  "itemGroup.mod1.general": "Mod 1"
+}

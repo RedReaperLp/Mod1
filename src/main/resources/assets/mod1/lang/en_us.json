@@ -1,10 +1,21 @@
 {
-  "item.mod1.ruby": "§cRuby",
+  "mod1.tooltip.shift": "§ePress §7[§aSHIFT§7] §efor mor informations",
+  "mod1.tooltip.craftingindigrend": "§aCrafting Indigrend",
+
+  "item.mod1.eight_ball": "§b8-Ball",
+  "item.mod1.eight_ball.tooltip.info1": "§aA magic 8-ball that gives you an number between 1 and 10.",
+  "item.mod1.eight_ball.tooltip.info2": "§aRight click get a number.",
+
   "block.mod1.ruby_block": "§cRuby Block",
+
+  "item.mod1.ruby": "§cRuby",
+
   "block.mod1.ruby_ore": "§cRuby Ore",
   "block.mod1.ruby_ore_deepslate": "§cRuby Ore §8(Deep Slate)",
   "block.mod1.ruby_ore_nether": "§cRuby Ore §8(Nether)",
   "block.mod1.ruby_ore_end": "§cRuby Ore §8(End)",
+  "block.mod1.jumpy_block": "§aJumpy Block",
+  "block.mod1.ruby_lamp": "§cRuby Lamp",
 
   "itemGroup.mod1.general": "Mod 1"
 }

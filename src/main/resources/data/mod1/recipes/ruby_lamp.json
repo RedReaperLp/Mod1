@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#r#",
+    " # "
+  ],
+  "key": {
+    "r": {
+      "item": "mod1:ruby_block"
+    },
+    "#": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mod1:ruby_lamp"
+  }
+}

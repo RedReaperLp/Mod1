@@ -22,7 +22,7 @@ public class JumpyBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof LivingEntity livingEntity) {
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20 * 5, 2));
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20 * 5, 20));
         }
         super.onSteppedOn(world, pos, state, entity);
     }
