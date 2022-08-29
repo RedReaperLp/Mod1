@@ -1,5 +1,6 @@
 package com.github.redreaperlp.mod1.blocks;
 
+import com.github.redreaperlp.mod1.blocks.custom.JumpyBlock;
 import com.github.redreaperlp.mod1.items.ItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -25,6 +26,9 @@ public class ModBlocks {
 
     public final Block RUBY_ORE_END = registerBlocks("ruby_ore_end",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f, 3.0f).requiresTool()), ItemGroupBuilder.MODItemGroup);
+
+    public final Block JUMPY_BLOCK = registerBlocks("jumpy_block",
+            new JumpyBlock(FabricBlockSettings.of(Material.STONE).strength(1.0f, 3.0f).requiresTool()), ItemGroupBuilder.MODItemGroup);
 
 
     private Block registerBlocks(String name, Block block, ItemGroup tab) {
