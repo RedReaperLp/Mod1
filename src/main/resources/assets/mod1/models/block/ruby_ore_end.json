@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mod1:block/ruby_ore_end"
+  }
+}

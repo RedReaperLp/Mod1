@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mod1:ruby_block",
+    "mod1:ruby_ore",
+    "mod1:ruby_ore_deepslate",
+    "mod1:ruby_ore_nether",
+    "mod1:ruby_ore_end"
+  ]
+}

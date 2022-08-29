@@ -1,0 +1,10 @@
+{
+  "item.mod1.ruby": "§cRuby",
+  "block.mod1.ruby_block": "§cRuby Block",
+  "block.mod1.ruby_ore": "§cRuby Ore",
+  "block.mod1.ruby_ore_deepslate": "§cRuby Ore §8(Deep Slate)",
+  "block.mod1.ruby_ore_nether": "§cRuby Ore §8(Nether)",
+  "block.mod1.ruby_ore_end": "§cRuby Ore §8(End)",
+
+  "itemGroup.mod1.general": "Mod 1"
+}
