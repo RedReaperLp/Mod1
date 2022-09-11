@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "mod1:block/ruby_plant0"
+  }
+}

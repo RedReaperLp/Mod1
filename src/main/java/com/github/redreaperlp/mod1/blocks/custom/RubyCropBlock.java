@@ -10,7 +10,7 @@ import net.minecraft.state.property.IntProperty;
 
 public class RubyCropBlock extends CropBlock {
 
-    public final IntProperty AGE = IntProperty.of("age", 0, 4);
+    public final IntProperty AGE = IntProperty.of("age", 0, 3);
     ModBlocks modBlocks = new ModBlocks();
 
 
@@ -24,7 +24,7 @@ public class RubyCropBlock extends CropBlock {
     }
 
     public int getMaxAge() {
-        return 4;
+        return 3;
     }
 
     public IntProperty getAgeProperty() {
