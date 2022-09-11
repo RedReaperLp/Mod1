@@ -24,6 +24,7 @@ public class ModItems {
 
     public final Item RUBY_SEEDS = registerItem("ruby_seeds",
             new AliasedBlockItem(modBlocks.RUBY_CROP, new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup)));
+
     /*
     public final Item RUBY_FOOD = registerItem("ruby_food",
             new Item(new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup).food(new FoodComponent.Builder().hunger(4).saturationModifier(1.2f).build())));
