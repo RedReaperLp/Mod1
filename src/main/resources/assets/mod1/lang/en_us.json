@@ -6,9 +6,12 @@
   "item.mod1.eight_ball.tooltip.info1": "§aA magic 8-ball that gives you an number between 1 and 10.",
   "item.mod1.eight_ball.tooltip.info2": "§aRight click get a number.",
 
+  "item.mod1.seedt1.info": "§aThis seed is placeable on T1 farmland",
+
   "block.mod1.ruby_block": "§cRuby Block",
 
   "item.mod1.ruby": "§cRuby",
+  "item.mod1.ruby_seeds": "§cRuby Seeds",
 
   "block.mod1.ruby_ore": "§cRuby Ore",
   "block.mod1.ruby_ore_deepslate": "§cRuby Ore §8(Deep Slate)",
@@ -16,6 +19,8 @@
   "block.mod1.ruby_ore_end": "§cRuby Ore §8(End)",
   "block.mod1.jumpy_block": "§aJumpy Block",
   "block.mod1.ruby_lamp": "§cRuby Lamp",
+  "block.mod1.ruby_crop": "§cRuby Crop",
+
 
   "itemGroup.mod1.general": "Mod 1"
 }

@@ -6,9 +6,12 @@
   "item.mod1.eight_ball.tooltip.info1": "§aEin magischer §b8-Ball§a, der dir eine zufällige zahl zwischen 1 und 10 gibt.",
   "item.mod1.eight_ball.tooltip.info2": "§aRechtsklick um die Zahl zu erhalten.",
 
+  "item.mod1.seedt1.info": "§aThis seed is placeable on T1 farmland",
+
   "block.mod1.ruby_block": "§cRubin Block",
 
   "item.mod1.ruby": "§cRubin",
+  "item.mod1.ruby_seeds": "§cRubin Samen",
 
   "block.mod1.ruby_ore": "§cRubin Erz",
   "block.mod1.ruby_ore_deepslate": "§cRubin Erz §8(Deep Slate)",
@@ -16,6 +19,7 @@
   "block.mod1.ruby_ore_end": "§cRubin Erz §8(End)",
   "block.mod1.jumpy_block": "§aSpringer Block",
   "block.mod1.ruby_lamp": "§cRubin Lampe",
+  "block.mod1.ruby_crop": "§cRubin Pflanze",
 
   "itemGroup.mod1.general": "Mod 1"
 }
