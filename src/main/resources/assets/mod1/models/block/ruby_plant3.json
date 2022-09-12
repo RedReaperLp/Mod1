@@ -1,6 +1,6 @@
 {
-  "parent": "block/crop",
+  "parent": "block/tinted_cross",
   "textures": {
-    "crop": "mod1:block/ruby_plant2"
+    "cross": "mod1:block/ruby_plant3"
   }
 }
