@@ -5,15 +5,16 @@ import com.github.redreaperlp.mod1.items.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 
 public class RubyCropBlock extends CropBlock {
 
-    public final IntProperty AGE = IntProperty.of("age", 0, 4);
-    ModItems modItems = new ModItems();
+    public static final IntProperty AGE = IntProperty.of("age", 0, 3);
 
+    public static final Item RUBY_SEEDS = ModItems.RUBY_SEEDS;
 
     public RubyCropBlock(Settings settings) {
         super(settings);
@@ -21,12 +22,12 @@ public class RubyCropBlock extends CropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return modItems.RUBY_SEEDS;
+        return RUBY_SEEDS;
     }
 
     @Override
     public int getMaxAge() {
-        return 4;
+        return 3;
     }
 
 

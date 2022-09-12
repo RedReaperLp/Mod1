@@ -13,8 +13,6 @@ import static com.github.redreaperlp.mod1.Mod1.MOD_ID;
 
 public class ModItems {
 
-    ModBlocks modBlocks = new ModBlocks();
-
 
     public final Item RUBY = registerItem("ruby",
             new RubyItem(new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup)));
@@ -22,8 +20,8 @@ public class ModItems {
     public final Item EIGHT_BALL = registerItem("eight_ball",
             new EightBallItem(new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup).maxCount(1)));
 
-    public final Item RUBY_SEEDS = registerItem("ruby_seeds",
-            new AliasedBlockItem(modBlocks.RUBY_CROP, new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup)));
+    public static final Item RUBY_SEEDS = registerItem("ruby_seeds",
+            new AliasedBlockItem(ModBlocks.RUBY_CROP, new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup)));
     /*
     public final Item RUBY_FOOD = registerItem("ruby_food",
             new Item(new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup).food(new FoodComponent.Builder().hunger(4).saturationModifier(1.2f).build())));
@@ -35,7 +33,7 @@ public class ModItems {
     public void registerItems() {
     }
 
-    public Item registerItem(String name, Item item) {
+    public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);
     }
 }

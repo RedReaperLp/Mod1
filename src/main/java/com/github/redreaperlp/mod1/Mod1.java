@@ -10,14 +10,14 @@ public class Mod1 implements ModInitializer {
 
 
 
-    ModBlocks modBlocks = new ModBlocks();
     ModItems modItems = new ModItems();
+    ModBlocks modBlocks = new ModBlocks();
 
     @Override
     public void onInitialize() {
 
-        modBlocks.registerBlocks();
         modItems.registerItems();
+        modBlocks.registerBlocks();
     }
 
 }

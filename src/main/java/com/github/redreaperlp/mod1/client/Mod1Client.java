@@ -8,8 +8,8 @@ import net.minecraft.client.render.RenderLayer;
 public class Mod1Client implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        ModBlocks modBlocks = new ModBlocks();
-        BlockRenderLayerMap.INSTANCE.putBlock(modBlocks.RUBY_CROP, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_CROP, RenderLayer.getCutout());
 
     }
 }

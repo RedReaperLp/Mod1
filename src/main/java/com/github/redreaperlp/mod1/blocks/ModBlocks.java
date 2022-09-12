@@ -42,13 +42,13 @@ public class ModBlocks {
             new RubyLamp(FabricBlockSettings.of(Material.STONE).strength(1.0f, 3.0f).requiresTool()
                     .luminance((state) -> state.get(RubyLamp.LIT) ? 15 : 0)), ItemGroupBuilder.MODItemGroup);
 
-    public final Block RUBY_CROP = registerBlocksWithoutItem("ruby_crop",
+    public static final Block RUBY_CROP = registerBlocksWithoutItem("ruby_crop",
             new RubyCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
 
 
 
 
-    private Block registerBlocksWithoutItem(String name, Block block) {
+    private static Block registerBlocksWithoutItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(MOD_ID, name), block);
     }
     private Block registerBlocks(String name, Block block, ItemGroup tab) {
