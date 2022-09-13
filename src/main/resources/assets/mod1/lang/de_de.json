@@ -6,7 +6,7 @@
   "item.mod1.eight_ball.tooltip.info1": "§aEin magischer §b8-Ball§a, der dir eine zufällige zahl zwischen 1 und 10 gibt.",
   "item.mod1.eight_ball.tooltip.info2": "§aRechtsklick um die Zahl zu erhalten.",
 
-  "item.mod1.seedt1.info": "§aThis seed is placeable on T1 farmland",
+  "mod1.tooltip.seedt1.info": "§aDieser Seed ist auf T1 Farmland Platzierbar",
 
   "block.mod1.ruby_block": "§cRubin Block",
 

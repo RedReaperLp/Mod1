@@ -6,7 +6,7 @@
   "item.mod1.eight_ball.tooltip.info1": "§aA magic 8-ball that gives you an number between 1 and 10.",
   "item.mod1.eight_ball.tooltip.info2": "§aRight click get a number.",
 
-  "item.mod1.seedt1.info": "§aThis seed is placeable on T1 farmland",
+  "mod1.tooltip.seedt1.info": "§aThis seed is placeable on T1 farmland",
 
   "block.mod1.ruby_block": "§cRuby Block",
 
