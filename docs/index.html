@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mod1</title>
-    <link rel="shortcut icon" href="css\images\ruby.png">
+    <link class="icon" rel="icon" href="css\images\ruby.png">
 
     <head>
         <meta charset="UTF-8">
@@ -12,7 +12,26 @@
     </head>
 <body>
 <div class="headerDiv">
-    <header class="header">
+    <header id="header1">
+        <h onmousemove="onClick()">Mod1</h>
+        <script>
+            function onClick() {
+                if (document.getElementById("header1")) {
+                    for (var i = 0; i < 40010; i++) {
+                        if (i= 40000){
+                            setTimeout(function () {
+                                window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                            }, 1000);
+                            i = 8888888
+                            window.alert(i);
+                        }
+                    }
+                    window.alert(num);
+                }
+            }
+        </script>
+    </header>
+    <header id="header2">
         <h>Mod1</h>
     </header>
 </div>

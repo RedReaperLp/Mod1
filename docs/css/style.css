@@ -16,10 +16,6 @@ body {
     margin-top: 60px;
 }
 
-.headerDiv:hover {
-    color: rgba(255, 0, 4, 0.70);
-}
-
 .content {
     width: 100px;
     height: 100px;
