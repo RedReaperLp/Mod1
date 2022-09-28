@@ -15,7 +15,9 @@ body {
     justify-content: center;
     margin-top: 60px;
 }
-
+.heeader2:hover{
+    color: white;
+}
 .content {
     width: 100px;
     height: 100px;
