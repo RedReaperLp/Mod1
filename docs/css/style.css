@@ -15,9 +15,11 @@ body {
     justify-content: center;
     margin-top: 60px;
 }
-.heeader2:hover{
+
+.heeader2:hover {
     color: white;
 }
+
 .content {
     width: 100px;
     height: 100px;
@@ -26,3 +28,47 @@ body {
     left: 1800px;
     top: 300px;
 }
+
+button {
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+
+button:active {
+    background: red;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.gitButton {
+    position: relative;
+    width: 70px;
+    transition: 1s;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.gitButton:hover > #buttonInner {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.gitButton:hover {
+    transition: 1s;
+    background: red;
+    color: #fff;
+}
+
+.gitButton:active {
+    background: green;
+    padding: 4px;
+    bottom: 1px;
+    right: 1px;
+}
+
