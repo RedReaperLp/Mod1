@@ -29,18 +29,20 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     color: yellow;
-    transition-duration: 0.4s;
+    transition: 0.4s;
+
 }
 
 .gitBut:hover {
     transform: scale(1.1);
     background: linear-gradient(307deg, rgba(0, 255, 111, 0.6) 0%, rgba(0, 255, 4, 0.6) 35%, rgba(0, 212, 255, 0.6) 100%);
-
+    color: red;
 }
 
 .gitBut:active {
     transform: scale(0.9);
     background: linear-gradient(307deg, rgba(0, 255, 111, 0.92) 0%, rgba(0, 255, 4, 0.92) 35%, rgba(0, 212, 255, 1) 100%);
+    color: maroon;
 }
 
 
