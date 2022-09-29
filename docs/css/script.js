@@ -18,4 +18,8 @@ window.onload = function () {
 
 }
 
+function onButtonClickDownload() {
+  window.location.assign("https://github.com/RedReaperLp/Mod1/releases/download/1.0/Mod1-1.0-Snap.jar");
+}
+
 
