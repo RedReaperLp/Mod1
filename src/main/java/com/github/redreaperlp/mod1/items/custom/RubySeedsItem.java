@@ -19,8 +19,8 @@ public class RubySeedsItem extends BlockItem {
     }
 
     @Override
-    public String getTranslationKey() {
-        return this.getOrCreateTranslationKey();
+    public String getTranslationKey(ItemStack stack) {
+        return super.getTranslationKey(stack);
     }
 
     @Override

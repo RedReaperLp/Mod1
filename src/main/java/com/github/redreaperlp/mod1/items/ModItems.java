@@ -5,11 +5,7 @@ import com.github.redreaperlp.mod1.items.custom.EightBallItem;
 import com.github.redreaperlp.mod1.items.custom.RubyItem;
 import com.github.redreaperlp.mod1.items.custom.RubySeedsItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -18,12 +14,10 @@ import static com.github.redreaperlp.mod1.Mod1.MOD_ID;
 public class ModItems {
 
 
-
-
-    public final Item RUBY = registerItem("ruby",
+    public static final Item RUBY = registerItem("ruby",
             new RubyItem(new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup)));
 
-    public final Item EIGHT_BALL = registerItem("eight_ball",
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
             new EightBallItem(new FabricItemSettings().group(ItemGroupBuilder.MODItemGroup).maxCount(1)));
 
     public static final Item RUBY_SEEDS = registerItem("ruby_seeds",
@@ -37,7 +31,7 @@ public class ModItems {
     */
 
 
-    public void registerItems() {
+    public static void registerItems() {
     }
 
     public static Item registerItem(String name, Item item) {
