@@ -13,4 +13,5 @@ public class ItemGroupBuilder {
     public static final ItemGroup MODItemGroup = FabricItemGroupBuilder.build(
             new Identifier("mod1", "general"),
             () -> new ItemStack(Registry.ITEM.get(new Identifier(MOD_ID, "ruby_block"))));
+
 }
