@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/minecraft-4');
 
 body {
-    background: url("images/minecraft.png") no-repeat center center fixed;
+    background: url("images/minecraft.webp") no-repeat center center fixed;
     background-size: cover;
     height: auto;
     width: 90%;
